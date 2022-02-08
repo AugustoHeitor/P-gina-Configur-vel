@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Configurável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    <div id="config">
+        <img src="peça.png" alt="imagemConfig">
+    </div>
+
+    <div id="cx-config">
+
+        <div class="fundo">
+            <label for="corFundo">Cor de Fundo:</label>
+            Branco:
+            <input type="radio" name="corFundo" class="corFundo" value="white" checked>
+            Azul:
+            <input type="radio" name="corFundo" class="corFundo" value="blue">
+            Vermelho:
+            <input type="radio" name="corFundo" class="corFundo" value="red">
+            Verde:
+            <input type="radio" name="corFundo" class="corFundo" value="green">
+            Laranja:
+            <input type="radio" name="corFundo" class="corFundo" value="orange">
+            Cinza:
+            <input type="radio" name="corFundo" class="corFundo" value="gray">
+        </div>
+
+        <div class="fundo">
+            <label for="corLetras">Cor das Letras:</label>
+            Preto:
+            <input type="radio" name="corLetras" class="corLetras" value="black" checked>
+            Azul:
+            <input type="radio" name="corLetras" class="corLetras" value="blue">
+            Vermelho:
+            <input type="radio" name="corLetras" class="corLetras" value="red">
+            Verde:
+            <input type="radio" name="corLetras" class="corLetras" value="green">
+            Laranja:
+            <input type="radio" name="corLetras" class="corLetras" value="orange">
+            Cinza:
+            <input type="radio" name="corLetras" class="corLetras" value="gray">
+        </div>
+
+        <div class="fundo">
+            <label for="corFundoTitulo">Cor do Fundo do Título:</label>
+            Cinza:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="gray" checked>
+            Azul:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="blue">
+            Vermelho:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="red">
+            Verde:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="green">
+            Laranja:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="orange">
+            Preto:
+            <input type="radio" name="corFundoTitulo" class="corFundoTitulo" value="black">
+        </div>
+
+        <div class="fundo">
+            <label for="corFundoTitulo">Cor do Fundo do Texto:</label>
+            Cinza:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="gray" checked>
+            Azul:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="blue">
+            Vermelho:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="red">
+            Verde:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="green">
+            Laranja:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="orange">
+            Preto:
+            <input type="radio" name="corFundoTexto" class="corFundoTexto" value="black">
+        </div>
+
+
+        <div class="fundo">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" maxlength="30">
+        </div>
+
+        <div class="fundo">
+            <label for="titulo">Texto:</label>
+            <input type="text" id="txt" maxlength="2079">
+        </div>
+
+
+        <div id="botoes">
+            <button id="salvar">Salvar</button>
+            <button id="cancelar">Cancelar</button>
+            <button id="resetar">Resetar</button>
+        </div>
+    </div>
+
+    <div id="cx--titulo">
+        <h1 id="cx-titulo">Título</h1>
+    </div>
+
+    <div id="cx-texto">
+        <p id="texto"></p>
+    </div>
+
+   
+</body>
+<script src="config.js"></script>
+</html>
