@@ -133,7 +133,7 @@ body{
     Word-wrap: break-Word;
 }
 
-@media screen and (max-width:500px)  {
+@media screen and (max-width:768px)  {
 
     body{
         overflow-y: scroll;
@@ -147,11 +147,22 @@ body{
     #cx-config{
         width: 85%;
         top:30%;
+        font-size: 27px;
+    }
+
+    .fundo > input{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    #salvar, #cancelar, #resetar{
+        font-size: 25px;
     }
 
     #cx--titulo{
         overflow-x: scroll;
-        margin: 100px auto 30px auto;
+        margin: 150px auto 30px auto;
         width: 80%;
     }
     
@@ -159,7 +170,50 @@ body{
         overflow-y: scroll;
         margin: 10px auto 50px auto;
         width: 80%;
+        height: 700px;
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width:500px)  {
+
+    body{
+        overflow-y: scroll;
+    }
+
+    #config{
+        width: 20vw;
+    }
+    
+    #cx-config{
+        width: 85%;
+        top:30%;
+        font-size: 18px;
+    }
+
+    .fundo > input{
+        width: 20px;
+        height: 20px;
+    }
+
+    #salvar, #cancelar, #resetar{
+        font-size: 20px;
+    }
+
+    #cx--titulo{
+        overflow-x: scroll;
+        margin: 100px auto 30px auto;
+        width: 80%;
+        font-size: 12px;
+    }
+    
+    #cx-texto{
+        overflow-y: scroll;
+        margin: 10px auto 50px auto;
+        width: 80%;
         height: 400px;
+        font-size: 20px;
     }
     
 }
