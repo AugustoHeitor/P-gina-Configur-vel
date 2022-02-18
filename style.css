@@ -132,3 +132,34 @@ body{
 #texto{
     Word-wrap: break-Word;
 }
+
+@media screen and (max-width:500px)  {
+
+    body{
+        overflow-y: scroll;
+        height: 650px;
+    }
+
+    #config{
+        width: 20vw;
+    }
+    
+    #cx-config{
+        width: 85%;
+        top:30%;
+    }
+
+    #cx--titulo{
+        overflow-x: scroll;
+        margin: 100px auto 30px auto;
+        width: 80%;
+    }
+    
+    #cx-texto{
+        overflow-y: scroll;
+        margin: 10px auto 50px auto;
+        width: 80%;
+        height: 400px;
+    }
+    
+}
